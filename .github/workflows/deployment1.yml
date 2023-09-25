@@ -16,3 +16,5 @@ jobs:
         run: npm run build
       - name: Deploy code
         run : echo "Deploy..."
+      - name: Demo
+        run: echo branch=$(git branch)
